@@ -1,0 +1,57 @@
+/* Reset and Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffdfd;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #4e00c2;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #6a0dad;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* List and Links */
+  ul {
+    padding-left: 1.5rem;
+    list-style-type: square;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
