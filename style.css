@@ -1,114 +1,44 @@
-/* ---------- Base Reset ---------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ---------- Shared Section Card Styling ---------- */
+section {
+    background-color: #e6f7f9;
+    border-left: 4px solid #00b4d8;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
   }
   
-  /* ---------- Body Styling ---------- */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0faff;
-    color: #1e2a38;
-    padding: 2rem;
-    line-height: 1.6;
-  }
-  
-  /* ---------- Header ---------- */
-  header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    color: #0077b6; /* blue */
-    margin-bottom: 0.5rem;
-  }
-  
-  header p {
-    font-size: 1.1rem;
-    color: #006d77;
-  }
-  
-  /* ---------- Generic Section Styling ---------- */
-  section {
-    margin-bottom: 2.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #cce3f0;
-  }
-  
+  /* ---------- Section Headings ---------- */
   section h2 {
     font-size: 1.6rem;
-    color: #008080; /* teal */
+    color: #0077b6;
     margin-bottom: 0.8rem;
   }
   
+  /* ---------- Paragraphs ---------- */
   section p {
     font-size: 1rem;
-    color: #333;
+    color: #1e2a38;
   }
   
-  /* ---------- Links ---------- */
-  .links ul,
-  .tech ul,
-  .learning ul,
-  .fun ul {
+  /* ---------- Lists ---------- */
+  section ul {
     padding-left: 1.5rem;
   }
   
-  .links li,
-  .tech li {
+  section ul li {
     margin-bottom: 0.5rem;
     font-size: 1rem;
-  }
-  
-  a {
-    color: #005f99;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    color: #003f66;
-  }
-  
-  /* ---------- Learning Section ---------- */
-  .learning {
-    background-color: #e0f7fa;
-    border-left: 4px solid #0077b6;
-    padding: 1.2rem 1.5rem;
-    border-radius: 8px;
-  }
-  
-  .learning h2 {
-    color: #0077b6;
-  }
-  
-  .learning ul li {
-    font-weight: 500;
     color: #1e2a38;
-    margin-bottom: 0.5rem;
+  }
+  
+  /* ---------- Learning Section (with 📘 emoji marker) ---------- */
+  .learning ul li {
     list-style-type: '📘 ';
   }
   
-  /* ---------- Fun Section ---------- */
-  .fun {
-    background-color: #d0f4f4;
-    border-left: 4px solid #00b4d8;
-    padding: 1.2rem 1.5rem;
-    border-radius: 8px;
-  }
-  
-  .fun h2 {
-    color: #00b4d8;
-  }
-  
+  /* ---------- Fun Section (with 💫 emoji marker & italic style) ---------- */
   .fun ul li {
-    font-style: italic;
-    color: #333;
-    margin-bottom: 0.5rem;
     list-style-type: '💫 ';
+    font-style: italic;
   }
   
