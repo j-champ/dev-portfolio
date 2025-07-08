@@ -54,4 +54,45 @@
   a:hover {
     text-decoration: underline;
   }
+  /* 📚 Learning Section */
+.learning {
+    background-color: #f5f0ff;
+    border-left: 4px solid #4e00c2;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+  
+  .learning h2 {
+    color: #4e00c2;
+    margin-bottom: 0.8rem;
+  }
+  
+  .learning ul li {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.5rem;
+    list-style-type: '📘 ';
+  }
+  
+  /* 🌸 Fun Section */
+  .fun {
+    background-color: #fff0f5;
+    border-left: 4px solid #ff69b4;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+  
+  .fun h2 {
+    color: #d63384;
+    margin-bottom: 0.8rem;
+  }
+  
+  .fun ul li {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 0.5rem;
+    list-style-type: '💫 ';
+  }
   
